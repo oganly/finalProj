@@ -646,54 +646,56 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <textInputTraits key="textInputTraits"/>
                                 <string key="userLabel">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.</string>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-or-CyP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-or-CyP">
                                 <rect key="frame" x="35" y="146" width="327" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.
+                                <color key="backgroundColor" red="0.94128841921560968" green="0.96698260615279463" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.
 
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+</mutableString>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rising water levels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyo-fg-xaC">
-                                <rect key="frame" x="130" y="95" width="141" height="21"/>
+                                <rect key="frame" x="59" y="72" width="283" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gma-fn-lad">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gma-fn-lad">
                                 <rect key="frame" x="32" y="487" width="330" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Average sea levels have increased by over 8 inches since 1880. 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jn-G3-kDh">
-                                <rect key="frame" x="58" y="567" width="160" height="21"/>
+                                <rect key="frame" x="127" y="593" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" red="0.59553486954243029" green="0.70708358983698671" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaA-Ql-HXs">
-                                <rect key="frame" x="26" y="623" width="349" height="239"/>
+                                <rect key="frame" x="32" y="603" width="349" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">https://oceanservice.noaa.gov/facts/sealevelclimate.html#:~:text=First%2C%20as%20the%20oceans%20warm,adds%20water%20to%20the%20ocean. 
 
 https://www.nationalgeographic.com/environment/article/sea-level-rise-1 
 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6VC-pz-Rmo"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.76647458556677295" green="0.86041746834722943" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="JmB-r0-EY6"/>
                 </viewController>
@@ -710,44 +712,45 @@ https://www.nationalgeographic.com/environment/article/sea-level-rise-1
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Natural disasters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYK-hn-DGE">
-                                <rect key="frame" x="133" y="124" width="129" height="21"/>
+                                <rect key="frame" x="79" y="73" width="257" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxp-AO-fmO">
-                                <rect key="frame" x="47" y="138" width="347" height="620"/>
+                                <rect key="frame" x="34" y="135" width="347" height="567"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.73036996113885311" green="0.65286593477477006" blue="0.51460281532215668" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Global warming is causing natural disasters such as floods, droughts, and storms. This is because water vapor is trapped in the atmosphere. This results in rainfall and wind power which increases hurricanes and storms. From 1970 to 2019, there have been 11,000 reported disasters globally, with just over two million deaths and $3.64 trillion in losses. 
 
 Not only that, global warming is causing mega-fires in the wild, destroying agriculture and biodiversity. These wildfires resulted from the increase in temperature and long dry seasons. For example, The 2016 Soberanes Fire burned more than 130,000 acres and cost $260 million to suppress, killing vulnerable species like the red-legged frog and steelhead trout by damaging creeks and rivers with increased levels of sedimentation and debris. 
 
 For every 1.8°F increase in temperatures, there is a seven percent increase in the moisture-holding capacity of the atmosphere.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDE-7G-d8N">
+                                <rect key="frame" x="127" y="710" width="156" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzP-xw-xEU">
-                                <rect key="frame" x="30" y="783" width="354" height="21"/>
+                                <rect key="frame" x="42" y="739" width="339" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">https://news.un.org/en/story/2021/09/1098662 
 https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-Natural-Disasters-fact-sheet.ashx </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDE-7G-d8N">
-                                <rect key="frame" x="82" y="745" width="160" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hRP-K0-cKu"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.90173733111509347" green="0.8060484643724819" blue="0.6353445431262682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="omW-cK-Nm4"/>
                 </viewController>
@@ -764,63 +767,96 @@ https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Effects of Global Warming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmi-Ek-2EA">
-                                <rect key="frame" x="108" y="119" width="199" height="21"/>
+                                <rect key="frame" x="66" y="128" width="288" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-mV-WPZ">
-                                <rect key="frame" x="108" y="192" width="165" height="31"/>
+                                <rect key="frame" x="88" y="192" width="252" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Rising Water Levels"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Rising Water Levels">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.4110545790551966" green="0.76666582245187664" blue="0.45309756358923875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="iKu-9t-fGg" kind="show" id="UNN-ao-vfp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-bw-Sbl">
-                                <rect key="frame" x="131" y="250" width="136" height="31"/>
+                                <rect key="frame" x="104" y="267" width="216" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Animal Extinction"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Animal Extinction">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.41105457909999998" green="0.76666582250000004" blue="0.45309756359999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSv-TT-pXy">
-                                <rect key="frame" x="122" y="312" width="157" height="31"/>
+                                <rect key="frame" x="93" y="355" width="238" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Rising Temperatures"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Rising Temperatures">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.41105457909999998" green="0.76666582250000004" blue="0.45309756359999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="HBh-hX-mlB" kind="show" id="jHv-DQ-0YZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znn-Z6-IL4">
-                                <rect key="frame" x="133" y="370" width="135" height="31"/>
+                                <rect key="frame" x="104" y="437" width="208" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Natural Disasters"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Natural Disasters">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.41105457909999998" green="0.76666582250000004" blue="0.45309756359999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="hBY-tY-o9L" kind="show" id="Q0u-2h-lEa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guR-ef-bT2">
-                                <rect key="frame" x="138" y="433" width="124" height="31"/>
+                                <rect key="frame" x="116" y="527" width="189" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Food Insecurity"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Food Insecurity">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.41105457909999998" green="0.76666582250000004" blue="0.45309756359999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AT8-KL-Aik">
-                                <rect key="frame" x="122" y="720" width="147" height="31"/>
+                                <rect key="frame" x="120" y="720" width="189" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back to Homepage"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back to Homepage">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                    <color key="baseForegroundColor" systemColor="systemBrownColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="E9w-5F-k4R"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cpX-bh-GUm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.85338620026620737" green="1" blue="0.87054161719671586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="hq0-06-eOL"/>
                 </viewController>
@@ -980,7 +1016,7 @@ has helped us survive. Now it’s time for us to help our environment survive.</
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="rCs-PP-lbB"/>
-        <segue reference="y5I-Qd-bmB"/>
+        <segue reference="E9w-5F-k4R"/>
         <segue reference="P9n-Hd-Xpp"/>
         <segue reference="sfc-zn-gnN"/>
     </inferredMetricsTieBreakers>
@@ -988,6 +1024,9 @@ has helped us survive. Now it’s time for us to help our environment survive.</
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
