@@ -582,6 +582,40 @@ Climate Change Indicators: US and Global Temperature | US EPA
             <point key="canvasLocation" x="-1350.7246376811595" y="1374.7767857142856"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="nov-YS-qDT">
+            <objects>
+                <viewController id="iKu-9t-fGg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dfb-q7-hUH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9E-0k-p6p">
+                                <rect key="frame" x="507" y="295" width="1684" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <mutableString key="userLabel">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.</mutableString>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-or-CyP">
+                                <rect key="frame" x="49" y="233" width="313" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6VC-pz-Rmo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="751-UP-kki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-669.56521739130437" y="1404.9107142857142"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="3Rw-qL-OsH">
             <objects>
                 <viewController id="i2u-fk-kby" sceneMemberID="viewController">
