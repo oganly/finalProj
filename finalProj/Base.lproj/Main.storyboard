@@ -23,8 +23,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cf-GA-w8e">
-                                <rect key="frame" x="186" y="206" width="76" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="While humans can't take back the damage they've done, we can slow the rate at which global warming occurs." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cf-GA-w8e">
+                                <rect key="frame" x="37" y="114" width="341" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -39,6 +39,26 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="6TT-kp-L7e"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To Help you Can:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDI-To-1Ni">
+                                <rect key="frame" x="134" y="257" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ual-5K-iYG">
+                                <rect key="frame" x="60" y="300" width="309" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Volunteer with Local Organizations
+Use less electricity if your house doesn’t run on renewable energy sources or make the switch
+Donate to organizations that are attempting to slow global warming down
+Find alternative ways to travel: biking, walking, carpooling
+Plant trees
+Recycle according to NorthWestern Education, recycling half of your households waste can save up to 2,4000 pouds of Carbon Dioxide                                    Also, reducing plastic use and incorporating reuseable objects into your lifestyle will slow the rate of global warming</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lb2-8b-kup"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -47,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jba-3j-zHw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-661" y="-539"/>
+            <point key="canvasLocation" x="-662.31884057971024" y="-539.0625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EA9-Pe-IQr">
@@ -796,10 +816,10 @@ https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0y-Gm-Jg6">
                                 <rect key="frame" x="20" y="33" width="374" height="546"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">NASA defines global warming as “the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.”  Climate change refers to human and naturally produced warming. 
+                                <string key="text">NASA defines global warming as “the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.”  Climate change refers to human and naturally produced warming. 
 
 Changes associated with global warming have been observed since the early 1900s and are primarily driven by human activity, especially fossil fuel burning,  which increases heat-trapping greenhouse gas levels in the atmosphere, raising the average surface temperature. Our planet is now at the hottest it has ever been, and scientists estimate that if it gets much hotter, life on Earth will soon look very different.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -924,9 +944,8 @@ has helped us survive. Now it’s time for us to help our environment survive.</
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bww-Cj-Eh9"/>
         <segue reference="rCs-PP-lbB"/>
-        <segue reference="OQe-sc-Ye0"/>
+        <segue reference="6TT-kp-L7e"/>
         <segue reference="P9n-Hd-Xpp"/>
         <segue reference="dAg-Un-AvM"/>
     </inferredMetricsTieBreakers>
