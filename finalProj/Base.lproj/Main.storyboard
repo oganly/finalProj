@@ -161,11 +161,11 @@ Tied to pollution and production → a major cause of global warming</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMZ-vi-PoS">
                                 <rect key="frame" x="20" y="538" width="374" height="258"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">5. Climate change (in 2 ways)
+                                <string key="text">5. Climate change (in 2 ways)
 Climate change has resulted in higher temperatures that some animals (especially marine life) cannot survive in , and that have caused massive ecological changes which play a large role in animals' survival
 
 -  As the health of ecosystems deteriorates (caused by destruction of forests, less water, rising heat), animal populations fall and invasive species are more able to take root, which can lead to extinction 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -232,7 +232,7 @@ Climate change has resulted in higher temperatures that some animals (especially
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYk-Pl-Anm">
                                 <rect key="frame" x="35" y="-41" width="345" height="704"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Extinction rates have been progressively increasing over time, but according to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), it’s now more rapidly than ever 
+                                <string key="text">Extinction rates have been progressively increasing over time, but according to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), it’s now more rapidly than ever 
 
 Extinction rate is tens to hundreds of times higher than it has been, on average, over the last 10 million years - IPBES
 
@@ -240,7 +240,7 @@ Extinction rate is tens to hundreds of times higher than it has been, on average
 
 Approx 1 million plant and animal species are approaching extinction (IPBES)
 
-More than 40% of amphibian species, almost 33% of reef-forming corals and more than a third of all marine mammals are threatened</mutableString>
+More than 40% of amphibian species, almost 33% of reef-forming corals and more than a third of all marine mammals are threatened</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -282,11 +282,11 @@ More than 40% of amphibian species, almost 33% of reef-forming corals and more t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVH-8j-ifg">
                                 <rect key="frame" x="34" y="55" width="346" height="659"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Extinction affects more than just the organism that goes extinct – all organisms in natural ecosystems exist in balance with each other (predators rely on prey to exist, prey relies on plants or smaller organisms [decomposers, like mushrooms], which rely on predators – it’s a circle) - When a species is lost, the balance is disrupted for the entire ecosystem
+                                <string key="text">Extinction affects more than just the organism that goes extinct – all organisms in natural ecosystems exist in balance with each other (predators rely on prey to exist, prey relies on plants or smaller organisms [decomposers, like mushrooms], which rely on predators – it’s a circle) - When a species is lost, the balance is disrupted for the entire ecosystem
 
 Crop pollination (the US Forest Service reports that over 150 crops -  including most fruit and grain - in the US alone rely on pollinators, many of which are endangered - about 80% of all plants rely on pollination by animals) water purification, and the carbon cycle (which gives us clean air) are important processes undertaken by organisms that often fall victim to extinction, which could have potentially devastating consequences
                                                                      Spiritual and cultural significance of natural organisms are also lost or disregarded when extinction occurs
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -468,6 +468,120 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="3D0-cG-IaQ">
+            <objects>
+                <viewController id="HBh-hX-mlB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u3F-nD-VOs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why are Global Temperatures Rising?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-Au-gj3">
+                                <rect key="frame" x="14" y="79" width="370" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK7-EM-fe1">
+                                <rect key="frame" x="52" y="115" width="353" height="332"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">When Earth receives radiant energy from the sun it is re-radiated back into the atmosphere and is often trapped as heat by greenhouse gas molecules. Since humans artificially create greenhouse gasses there are more greenhouse gas molecules to trap heat. Thus, the earth increasingly becomes warmer as the concentration of greenhouse gasses increases.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-BE-7vi">
+                                <rect key="frame" x="72" y="364" width="294" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Effects of rising temperatures include droughts, floods, the melting of ice caps, destroyed animal habitats and an increase in natural disasters</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubc-Yg-fk1">
+                                <rect key="frame" x="61" y="568" width="305" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">To learn more click these links: Global Warming - NASA
+World of Change: Global Temperatures
+
+Climate Change Indicators: US and Global Temperature | US EPA
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U70-n4-qEE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yCS-cG-8Zw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="45f-QM-agq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1371.0144927536232" y="763.39285714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tb3-c0-hV1">
+            <objects>
+                <viewController id="FgH-kI-CtB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6gd-kO-uGX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food Insecurity" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Pm-nX4">
+                                <rect key="frame" x="117" y="79" width="305" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is it?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wb-aU-rKN">
+                                <rect key="frame" x="20" y="155" width="248" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food insecurity is theinability to have reliable access to food" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWX-5v-wkb">
+                                <rect key="frame" x="0.0" y="194" width="333" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Global Warming Contributes to Food Insecurity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFz-xw-ViE">
+                                <rect key="frame" x="0.0" y="387" width="395" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwM-2E-IWp">
+                                <rect key="frame" x="123" y="679" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-ym-3L0">
+                                <rect key="frame" x="10" y="407" width="374" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">  A change in climate and regular natural disaster patterns, as a result of global warming, changes the availability or the security of desired food production. Floods, droughts and heatwaves, which have increased in presence, are aspects of nature that can destroy flourishing crops or soil. When they’re predictable, they’re easier to work around, but if not, it creates a disruption in expected food production causing people to starve because of it.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ub1-3a-Sdk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qcU-bE-cQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1350.7246376811595" y="1374.7767857142856"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="3Rw-qL-OsH">
             <objects>
                 <viewController id="i2u-fk-kby" sceneMemberID="viewController">
@@ -499,6 +613,9 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Rising Temperatures"/>
+                                <connections>
+                                    <segue destination="HBh-hX-mlB" kind="show" id="jHv-DQ-0YZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znn-Z6-IL4">
                                 <rect key="frame" x="133" y="370" width="135" height="31"/>
@@ -649,9 +766,8 @@ has helped us survive. Now it’s time for us to help our environment survive.</
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bww-Cj-Eh9"/>
-        <segue reference="rCs-PP-lbB"/>
-        <segue reference="OQe-sc-Ye0"/>
+        <segue reference="ByL-Xm-kCz"/>
+        <segue reference="E9w-5F-k4R"/>
         <segue reference="P9n-Hd-Xpp"/>
     </inferredMetricsTieBreakers>
     <resources>
