@@ -586,7 +586,7 @@ Climate Change Indicators: US and Global Temperature | US EPA
             <objects>
                 <viewController id="iKu-9t-fGg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dfb-q7-hUH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9E-0k-p6p">
@@ -594,14 +594,49 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <mutableString key="userLabel">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.</mutableString>
+                                <string key="userLabel">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.</string>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-or-CyP">
-                                <rect key="frame" x="49" y="233" width="313" height="166"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-or-CyP">
+                                <rect key="frame" x="35" y="146" width="327" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.
+                                <string key="text">The increase of greenhouse gases trapped in the atmosphere is escalating sea surface temperatures and sea levels. As an effect, natural disasters such as storms and floods occur more often due to warmer water. The rise in water levels is not only causing climate patterns to alter but also the acidity of the ocean. This destroys the biodiversity of the ocean which reduces the number of coral reefs and other organisms undersea. A warming ocean leads to an increase in bleaching, diseases, and sedimentation among coral reefs.
 
-</mutableString>
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rising water levels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyo-fg-xaC">
+                                <rect key="frame" x="130" y="95" width="141" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gma-fn-lad">
+                                <rect key="frame" x="32" y="487" width="330" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Average sea levels have increased by over 8 inches since 1880. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jn-G3-kDh">
+                                <rect key="frame" x="58" y="567" width="160" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaA-Ql-HXs">
+                                <rect key="frame" x="26" y="623" width="349" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">https://oceanservice.noaa.gov/facts/sealevelclimate.html#:~:text=First%2C%20as%20the%20oceans%20warm,adds%20water%20to%20the%20ocean. 
+
+https://www.nationalgeographic.com/environment/article/sea-level-rise-1 
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -610,10 +645,65 @@ Climate Change Indicators: US and Global Temperature | US EPA
                         <viewLayoutGuide key="safeArea" id="6VC-pz-Rmo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JmB-r0-EY6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="751-UP-kki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-669.56521739130437" y="1404.9107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Q0k-zO-x84">
+            <objects>
+                <viewController id="hBY-tY-o9L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q8e-ME-KOc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Natural disasters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYK-hn-DGE">
+                                <rect key="frame" x="133" y="124" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxp-AO-fmO">
+                                <rect key="frame" x="47" y="138" width="347" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Global warming is causing natural disasters such as floods, droughts, and storms. This is because water vapor is trapped in the atmosphere. This results in rainfall and wind power which increases hurricanes and storms. From 1970 to 2019, there have been 11,000 reported disasters globally, with just over two million deaths and $3.64 trillion in losses. 
+
+Not only that, global warming is causing mega-fires in the wild, destroying agriculture and biodiversity. These wildfires resulted from the increase in temperature and long dry seasons. For example, The 2016 Soberanes Fire burned more than 130,000 acres and cost $260 million to suppress, killing vulnerable species like the red-legged frog and steelhead trout by damaging creeks and rivers with increased levels of sedimentation and debris. 
+
+For every 1.8°F increase in temperatures, there is a seven percent increase in the moisture-holding capacity of the atmosphere.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzP-xw-xEU">
+                                <rect key="frame" x="30" y="783" width="354" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">https://news.un.org/en/story/2021/09/1098662 
+https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-Natural-Disasters-fact-sheet.ashx </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDE-7G-d8N">
+                                <rect key="frame" x="82" y="745" width="160" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hRP-K0-cKu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="omW-cK-Nm4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xcm-01-RVR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="1431.6964285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Rw-qL-OsH">
@@ -631,10 +721,13 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-mV-WPZ">
-                                <rect key="frame" x="123" y="192" width="150" height="31"/>
+                                <rect key="frame" x="108" y="192" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Rising Water Levels"/>
+                                <connections>
+                                    <segue destination="iKu-9t-fGg" kind="show" id="UNN-ao-vfp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-bw-Sbl">
                                 <rect key="frame" x="131" y="250" width="136" height="31"/>
@@ -656,6 +749,9 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Natural Disasters"/>
+                                <connections>
+                                    <segue destination="hBY-tY-o9L" kind="show" id="Q0u-2h-lEa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guR-ef-bT2">
                                 <rect key="frame" x="138" y="433" width="124" height="31"/>
