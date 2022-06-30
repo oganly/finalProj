@@ -528,21 +528,32 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why are Global Temperatures Rising?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-Au-gj3">
                                 <rect key="frame" x="14" y="79" width="386" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.091386386359792265" green="0.0" blue="0.10236428000710229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK7-EM-fe1">
-                                <rect key="frame" x="37" y="138" width="353" height="332"/>
+                                <rect key="frame" x="31" y="150" width="353" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">When Earth receives radiant energy from the sun it is re-radiated back into the atmosphere and is often trapped as heat by greenhouse gas molecules. Since humans artificially create greenhouse gasses there are more greenhouse gas molecules to trap heat. Thus, the earth increasingly becomes warmer as the concentration of greenhouse gasses increases.
-</string>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <color key="backgroundColor" red="0.53677809238433838" green="0.56811630725860596" blue="0.6129753589630127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">When Earth receives radiant energy from the sun ☀️, it's re-radiated back into the atmosphere and is often trapped as heat by greenhouse gas molecules. Since humans artificially create greenhouse gasses there are more greenhouse gas molecules to trap heat. Thus, the earth 🌏increasingly becomes warmer as the concentration of greenhouse gasses increases.
+</mutableString>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.48257104550000002" green="0.61551183460000003" blue="0.52509532560000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-BE-7vi">
+                                <rect key="frame" x="49" y="375" width="316" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49306255089030848" green="0.65442089542711468" blue="0.65862235637626265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Effects of rising temperatures include:                                        ✩droughts and flooding✩                       ✩the melting of ice caps✩       ✩destroyed animal habitats✩             ✩an increase in natural disasters✩</string>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubc-Yg-fk1">
-                                <rect key="frame" x="61" y="568" width="305" height="274"/>
+                                <rect key="frame" x="55" y="508" width="305" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">To learn more click these links: Global Warming - NASA
 World of Change: Global Temperatures
@@ -553,17 +564,9 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-BE-7vi">
-                                <rect key="frame" x="84" y="456" width="294" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Effects of rising temperatures include:                                        -droughts and flooding                        -the melting of ice caps                  -destroyed animal habitats                      -an increase in natural disasters                                                                                                                                   </string>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U70-n4-qEE"/>
-                        <color key="backgroundColor" red="0.76518681073429606" green="0.39294366155016136" blue="0.2171681321789484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.51867538690567017" green="0.60640937089920044" blue="0.61422139406204224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="yCS-cG-8Zw"/>
                 </viewController>
@@ -579,24 +582,17 @@ Climate Change Indicators: US and Global Temperature | US EPA
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is it?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wb-aU-rKN">
-                                <rect key="frame" x="20" y="155" width="248" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food Insecurity🥀" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Pm-nX4">
+                                <rect key="frame" x="123" y="84" width="305" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food insecurity is theinability to have reliable access to food" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWX-5v-wkb">
-                                <rect key="frame" x="0.0" y="194" width="333" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Global Warming Contributes to Food Insecurity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFz-xw-ViE">
-                                <rect key="frame" x="0.0" y="387" width="395" height="21"/>
+                                <rect key="frame" x="14" y="250" width="387" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -607,24 +603,24 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-ym-3L0">
-                                <rect key="frame" x="10" y="407" width="374" height="246"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food insecurity is theinability to have reliable access to food" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWX-5v-wkb">
+                                <rect key="frame" x="41" y="107" width="333" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">  A change in climate and regular natural disaster patterns, as a result of global warming, changes the availability or the security of desired food production. Floods, droughts and heatwaves, which have increased in presence, are aspects of nature that can destroy flourishing crops or soil. When they’re predictable, they’re easier to work around, but if not, it creates a disruption in expected food production causing people to starve because of it.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food Insecurity" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Pm-nX4">
-                                <rect key="frame" x="123" y="84" width="305" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-ym-3L0">
+                                <rect key="frame" x="20" y="268" width="374" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <mutableString key="text">  A change in climate and regular natural disaster patterns, as a result of global warming, changes the availability or the security of desired food production. Floods🌊, droughts and heatwaves, which have increased in presence, are aspects of nature that can destroy flourishing crops🌱or soil. When they’re predictable, they’re easier to work around, but if not, it creates a disruption in expected food production causing people to starve because of it.</mutableString>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ub1-3a-Sdk"/>
-                        <color key="backgroundColor" red="0.67554412849323586" green="0.7657565492572207" blue="0.76337326947402184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7657565492572207" green="0.74618836557098112" blue="0.49615176338783346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcU-bE-cQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
