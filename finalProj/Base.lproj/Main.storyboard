@@ -361,19 +361,19 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMZ-Du-mjZ">
-                                <rect key="frame" x="37" y="596" width="357" height="31"/>
+                                <rect key="frame" x="180" y="596" width="72" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="To learn more about causes of extinction, click here"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Causes"/>
                                 <connections>
                                     <segue destination="YOc-pZ-8Qq" kind="show" id="NqS-GU-2tQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kq1-se-b1A">
-                                <rect key="frame" x="82" y="635" width="251" height="31"/>
+                                <rect key="frame" x="166" y="635" width="84" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="See statistics about extinction here"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Statistics"/>
                                 <connections>
                                     <segue destination="Fzu-7P-57f" kind="show" id="gza-2O-Yus"/>
                                 </connections>
@@ -388,10 +388,10 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQD-yK-Rua">
-                                <rect key="frame" x="130" y="557" width="154" height="31"/>
+                                <rect key="frame" x="172" y="557" width="70" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Effects of extinction"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Effects"/>
                                 <connections>
                                     <segue destination="AtZ-wC-6t6" kind="show" id="W5o-CA-jTr"/>
                                 </connections>
@@ -669,12 +669,12 @@ https://www.nationalgeographic.com/environment/article/sea-level-rise-1
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxp-AO-fmO">
                                 <rect key="frame" x="47" y="138" width="347" height="620"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Global warming is causing natural disasters such as floods, droughts, and storms. This is because water vapor is trapped in the atmosphere. This results in rainfall and wind power which increases hurricanes and storms. From 1970 to 2019, there have been 11,000 reported disasters globally, with just over two million deaths and $3.64 trillion in losses. 
+                                <string key="text">Global warming is causing natural disasters such as floods, droughts, and storms. This is because water vapor is trapped in the atmosphere. This results in rainfall and wind power which increases hurricanes and storms. From 1970 to 2019, there have been 11,000 reported disasters globally, with just over two million deaths and $3.64 trillion in losses. 
 
 Not only that, global warming is causing mega-fires in the wild, destroying agriculture and biodiversity. These wildfires resulted from the increase in temperature and long dry seasons. For example, The 2016 Soberanes Fire burned more than 130,000 acres and cost $260 million to suppress, killing vulnerable species like the red-legged frog and steelhead trout by damaging creeks and rivers with increased levels of sedimentation and debris. 
 
 For every 1.8°F increase in temperatures, there is a seven percent increase in the moisture-holding capacity of the atmosphere.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -787,35 +787,63 @@ https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Global Warming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugo-UK-4tU">
-                                <rect key="frame" x="121" y="135" width="172" height="21"/>
+                                <rect key="frame" x="121" y="57" width="172" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="type stuff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0y-Gm-Jg6">
-                                <rect key="frame" x="171" y="219" width="74" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0y-Gm-Jg6">
+                                <rect key="frame" x="20" y="33" width="374" height="546"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">NASA defines global warming as “the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.”  Climate change refers to human and naturally produced warming. 
+
+Changes associated with global warming have been observed since the early 1900s and are primarily driven by human activity, especially fossil fuel burning,  which increases heat-trapping greenhouse gas levels in the atmosphere, raising the average surface temperature. Our planet is now at the hottest it has ever been, and scientists estimate that if it gets much hotter, life on Earth will soon look very different.
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlX-z5-dHZ">
-                                <rect key="frame" x="134" y="734" width="147" height="31"/>
+                                <rect key="frame" x="26" y="53" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back to Homepage"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="C2D-7d-ldC"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="vcS-Av-QrM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEV-xd-aCw">
-                                <rect key="frame" x="112" y="664" width="193" height="31"/>
+                                <rect key="frame" x="88" y="634" width="238" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Effects of Global Warming"/>
                                 <connections>
                                     <segue destination="i2u-fk-kby" kind="show" id="ByL-Xm-kCz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00B-EX-rX7">
+                                <rect key="frame" x="26" y="499" width="363" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There are a variety of negative effects of global warming, which have the potential to significantly harm the planet - you can read more about the effects of climate change below.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global warming is a massive threat to our world. To find resources on what you can do, click below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ud-kT-5yR">
+                                <rect key="frame" x="23" y="673" width="368" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgw-T1-DJM">
+                                <rect key="frame" x="156" y="755" width="104" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="How to Help"/>
+                                <connections>
+                                    <segue destination="IMq-ai-Ysq" kind="show" id="dAg-Un-AvM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -896,9 +924,11 @@ has helped us survive. Now it’s time for us to help our environment survive.</
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ByL-Xm-kCz"/>
-        <segue reference="E9w-5F-k4R"/>
+        <segue reference="Bww-Cj-Eh9"/>
+        <segue reference="rCs-PP-lbB"/>
+        <segue reference="OQe-sc-Ye0"/>
         <segue reference="P9n-Hd-Xpp"/>
+        <segue reference="dAg-Un-AvM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
