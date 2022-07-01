@@ -596,10 +596,11 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwM-2E-IWp">
-                                <rect key="frame" x="123" y="679" width="38" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-ym-3L0">
+                                <rect key="frame" x="20" y="268" width="374" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <mutableString key="text">  A change in climate and regular natural disaster patterns, as a result of global warming, changes the availability or the security of desired food production. Floods🌊, droughts and heatwaves, which have increased in presence, are aspects of nature that can destroy flourishing crops🌱or soil. When they’re predictable, they’re easier to work around, but if not, it creates a disruption in expected food production causing people to starve because of it.</mutableString>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -610,14 +611,21 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-ym-3L0">
-                                <rect key="frame" x="20" y="268" width="374" height="246"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clickone of These Links to Learn More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwM-2E-IWp">
+                                <rect key="frame" x="41" y="539" width="360" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">  A change in climate and regular natural disaster patterns, as a result of global warming, changes the availability or the security of desired food production. Floods🌊, droughts and heatwaves, which have increased in presence, are aspects of nature that can destroy flourishing crops🌱or soil. When they’re predictable, they’re easier to work around, but if not, it creates a disruption in expected food production causing people to starve because of it.</mutableString>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Global Food Security" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1ER-yn-Orw">
+                                <rect key="frame" x="101" y="638" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ub1-3a-Sdk"/>
                         <color key="backgroundColor" red="0.7657565492572207" green="0.74618836557098112" blue="0.49615176338783346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1013,11 +1021,14 @@ has helped us survive. Now it’s time for us to help our environment survive.</
     <inferredMetricsTieBreakers>
         <segue reference="rCs-PP-lbB"/>
         <segue reference="E9w-5F-k4R"/>
-        <segue reference="P9n-Hd-Xpp"/>
+        <segue reference="AFp-rL-Ctk"/>
         <segue reference="sfc-zn-gnN"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

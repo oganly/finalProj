@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84F31DB3286EAAEC00AC77CC /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */; };
 		C8533551286B8ADA004BF6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533550286B8ADA004BF6DB /* AppDelegate.swift */; };
 		C8533553286B8ADA004BF6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533552286B8ADA004BF6DB /* SceneDelegate.swift */; };
 		C8533555286B8ADA004BF6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533554286B8ADA004BF6DB /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
 		C853354D286B8ADA004BF6DB /* finalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8533550286B8ADA004BF6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8533552286B8ADA004BF6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C853355E286B8ADE004BF6DB /* LaunchScreen.storyboard */,
 				C8533561286B8ADE004BF6DB /* Info.plist */,
 				C8533559286B8ADA004BF6DB /* finalProj.xcdatamodeld */,
+				84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */,
 			);
 			path = finalProj;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				C8533555286B8ADA004BF6DB /* ViewController.swift in Sources */,
 				C8533551286B8ADA004BF6DB /* AppDelegate.swift in Sources */,
+				84F31DB3286EAAEC00AC77CC /* NSAttributedString.swift in Sources */,
 				C8533553286B8ADA004BF6DB /* SceneDelegate.swift in Sources */,
 				C853355B286B8ADA004BF6DB /* finalProj.xcdatamodeld in Sources */,
 			);
