@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84F31DB3286EAAEC00AC77CC /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */; };
+		84F31DC5286F670400AC77CC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31DC4286F670400AC77CC /* TableViewController.swift */; };
+		84F31DC7286F679A00AC77CC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31DC6286F679A00AC77CC /* Todo.swift */; };
 		C8533551286B8ADA004BF6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533550286B8ADA004BF6DB /* AppDelegate.swift */; };
 		C8533553286B8ADA004BF6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533552286B8ADA004BF6DB /* SceneDelegate.swift */; };
 		C8533555286B8ADA004BF6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533554286B8ADA004BF6DB /* ViewController.swift */; };
@@ -38,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		84F31DC4286F670400AC77CC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84F31DC6286F679A00AC77CC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		C853354D286B8ADA004BF6DB /* finalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8533550286B8ADA004BF6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8533552286B8ADA004BF6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,8 @@
 				C853355E286B8ADE004BF6DB /* LaunchScreen.storyboard */,
 				C8533561286B8ADE004BF6DB /* Info.plist */,
 				C8533559286B8ADA004BF6DB /* finalProj.xcdatamodeld */,
-				84F31DB2286EAAEC00AC77CC /* NSAttributedString.swift */,
+				84F31DC4286F670400AC77CC /* TableViewController.swift */,
+				84F31DC6286F679A00AC77CC /* Todo.swift */,
 			);
 			path = finalProj;
 			sourceTree = "<group>";
@@ -208,7 +211,6 @@
 					};
 					C853356F286B8ADF004BF6DB = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = C853354C286B8ADA004BF6DB;
 					};
 				};
 			};
@@ -264,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F31DC7286F679A00AC77CC /* Todo.swift in Sources */,
 				C8533555286B8ADA004BF6DB /* ViewController.swift in Sources */,
+				84F31DC5286F670400AC77CC /* TableViewController.swift in Sources */,
 				C8533551286B8ADA004BF6DB /* AppDelegate.swift in Sources */,
-				84F31DB3286EAAEC00AC77CC /* NSAttributedString.swift in Sources */,
 				C8533553286B8ADA004BF6DB /* SceneDelegate.swift in Sources */,
 				C853355B286B8ADA004BF6DB /* finalProj.xcdatamodeld in Sources */,
 			);
@@ -359,7 +362,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -496,12 +499,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProjTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -515,12 +519,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProjTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -540,10 +545,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProjUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = finalProj;
 			};
 			name = Debug;
 		};
@@ -557,10 +562,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProjUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = finalProj;
 			};
 			name = Release;
 		};

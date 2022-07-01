@@ -76,6 +76,9 @@
                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="JWg-TO-8SV" kind="show" id="av5-eK-MQW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Cool our Climate!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWF-Rt-40M">
                                 <rect key="frame" x="26" y="151" width="363" height="33"/>
@@ -85,7 +88,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0it-2h-5SL">
-                                <rect key="frame" x="43" y="614" width="329" height="48"/>
+                                <rect key="frame" x="34" y="634" width="329" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46725379719999999" green="0.6586223564" blue="0.51249694999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.46725379719999999" green="0.6586223564" blue="0.51249694999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,7 +104,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="stk-Lj-wVY" kind="show" id="Xfe-zD-CN9"/>
+                                    <segue destination="O7W-Ta-jG4" kind="show" id="CAu-zV-2v9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -113,6 +116,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+        <!--Goals and Achievements-->
+        <scene sceneID="Un1-YH-JGl">
+            <objects>
+                <tableViewController id="uRq-9q-BwX" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="bTc-C0-O05">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.68412894729999996" green="0.81617158970000003" blue="0.86975267199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vm4-LP-7nz">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vm4-LP-7nz" id="9pQ-Ac-rS9">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Download CoolOurClimate✅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRf-8a-cHS">
+                                            <rect key="frame" x="35" y="22" width="359" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="631" id="re2-rC-IaH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="631"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="re2-rC-IaH" id="3YZ-VF-Ab1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="631"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share this app with a friend🌱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj2-JL-CdQ">
+                                            <rect key="frame" x="33" y="11" width="231" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uRq-9q-BwX" id="8SP-db-5jg"/>
+                            <outlet property="delegate" destination="uRq-9q-BwX" id="plC-KZ-Iji"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Goals and Achievements" id="9bN-Yi-pK3">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uZz-qV-2fK">
+                            <connections>
+                                <segue destination="qy2-Oa-NzM" kind="show" id="kBw-0e-ex7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RRB-te-kdu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960.8695652173915" y="93.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hnF-nl-N0k">
@@ -280,7 +344,7 @@ Climate Change Indicators: US and Global Temperature | US EPA
             <objects>
                 <viewController id="FgH-kI-CtB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6gd-kO-uGX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food Insecurity🥀" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Pm-nX4">
@@ -319,23 +383,22 @@ Climate Change Indicators: US and Global Temperature | US EPA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Global Food Security" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1ER-yn-Orw">
-                                <rect key="frame" x="101" y="648" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Food Security" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8S-Aa-CUC">
+                                <rect key="frame" x="139" y="620" width="159" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ub1-3a-Sdk"/>
                         <color key="backgroundColor" red="0.7657565492572207" green="0.74618836557098112" blue="0.49615176338783346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BI2-zd-0uv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcU-bE-cQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1350.7246376811595" y="1374.7767857142856"/>
+            <point key="canvasLocation" x="-1404" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nov-YS-qDT">
@@ -551,6 +614,9 @@ https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-
                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="FgH-kI-CtB" kind="show" id="8e8-dO-Itd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AT8-KL-Aik">
                                 <rect key="frame" x="120" y="720" width="189" height="38"/>
@@ -574,44 +640,6 @@ https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-
                 <exit id="Ykm-sH-2I2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-630.43478260869574" y="746.65178571428567"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="p3m-3G-Xhu">
-            <objects>
-                <tableViewController id="BJI-BW-hHS" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jSO-un-GUK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iya-jQ-w96">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iya-jQ-w96" id="sJc-Xj-6zw">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goals and Achievements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7je-xn-D3b">
-                                            <rect key="frame" x="113" y="11" width="188" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="BJI-BW-hHS" id="NMh-QJ-iUc"/>
-                            <outlet property="delegate" destination="BJI-BW-hHS" id="Ydu-jy-mxc"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="EzY-qV-4bz"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="05d-J8-4Bg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1902.8985507246377" y="767.41071428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Cw-3M-eop">
@@ -682,26 +710,7 @@ has helped us survive. Now it’s time for us to help our environment survive.</
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U3c-Yp-sn2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713.04347826086962" y="83.705357142857139"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="RtD-fI-pcc">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="stk-Lj-wVY" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="KRN-vt-lnX"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3br-Dd-Zrk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BJI-BW-hHS" kind="relationship" relationship="rootViewController" id="Djd-sv-LJn"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZF2-mV-gFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="992.75362318840587" y="767.41071428571422"/>
+            <point key="canvasLocation" x="884" y="-846"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LrS-Oe-qWa">
@@ -871,7 +880,7 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xF-cA-fAe">
                                 <rect key="frame" x="35" y="61" width="345" height="704"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">- Extinction rates have been progressively increasing over time, but according to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), it’s now more rapidly than ever 
+                                <string key="text">- Extinction rates have been progressively increasing over time, but according to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), it’s now more rapidly than ever 
 
 - Extinction rate is tens to hundreds of times higher than it has been, on average, over the last 10 million years - IPBES
 
@@ -879,7 +888,7 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
 
 - Approx 1 million plant and animal species are approaching extinction (IPBES)
 
-- More than 40% of amphibian species, almost 33% of reef-forming corals and more than a third of all marine mammals are threatened</mutableString>
+- More than 40% of amphibian species, almost 33% of reef-forming corals and more than a third of all marine mammals are threatened</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
                                 <color key="textColor" red="0.64541216150000003" green="0.0" blue="0.30336123040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1150,15 +1159,15 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
             <objects>
                 <viewController id="JWg-TO-8SV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ywY-hW-s1m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6X-OJ-Odu">
                                 <rect key="frame" x="29" y="100" width="358" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">NASA defines global warming as “the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.”  Climate change refers to human and naturally produced warming. 
+                                <string key="text">NASA defines global warming as “the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.”  Climate change refers to human and naturally produced warming. 
 
-Changes associated with global warming have been observed since the early 1900s and are primarily driven by human activity, especially fossil fuel burning,  which increases heat-trapping greenhouse gas levels in the atmosphere, raising the average surface temperature. Our planet is now at the hottest it has ever been, and scientists estimate that if it gets much hotter, life on Earth will soon look very different.</mutableString>
+Changes associated with global warming have been observed since the early 1900s and are primarily driven by human activity, especially fossil fuel burning,  which increases heat-trapping greenhouse gas levels in the atmosphere, raising the average surface temperature. Our planet is now at the hottest it has ever been, and scientists estimate that if it gets much hotter, life on Earth will soon look very different.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1229,12 +1238,73 @@ Changes associated with global warming have been observed since the early 1900s 
             </objects>
             <point key="canvasLocation" x="153.62318840579712" y="762.72321428571422"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="TD2-JZ-VD4">
+            <objects>
+                <viewController id="qy2-Oa-NzM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ei1-a9-vWP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPy-34-RyV">
+                                <rect key="frame" x="272" y="306" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Achieved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="es8-0w-R3N">
+                                <rect key="frame" x="110" y="306" width="132" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="           add goal here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UEi-8Z-BFB">
+                                <rect key="frame" x="45" y="170" width="302" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title of Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nn2-uH-1EE">
+                                <rect key="frame" x="129" y="88" width="157" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g13-FW-Cha"/>
+                        <color key="backgroundColor" red="0.68412894729999996" green="0.81617158970000003" blue="0.86975267199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hwt-1y-qJr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2c-22-6sR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3386.9565217391305" y="30.803571428571427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m4c-Ht-4Dk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O7W-Ta-jG4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Wuu-HP-6ru"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LHp-GG-bL5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uRq-9q-BwX" kind="relationship" relationship="rootViewController" id="9ZE-OA-Y0a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PJe-MY-jzl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="93.75"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gnn-Vl-wQe"/>
-        <segue reference="pQh-Ho-iyQ"/>
-        <segue reference="edu-V7-czN"/>
-        <segue reference="cNf-gp-eyT"/>
+        <segue reference="p5a-VE-5Fc"/>
+        <segue reference="ps6-6I-vbj"/>
+        <segue reference="sfc-zn-gnN"/>
+        <segue reference="E9w-5F-k4R"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
