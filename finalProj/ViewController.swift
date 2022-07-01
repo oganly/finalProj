@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBAction func Natural(_ sender: Any) {
     }
     @IBOutlet weak var textView: UITextView!;    override func viewDidLoad()

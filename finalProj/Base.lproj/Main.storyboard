@@ -918,10 +918,10 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
             </objects>
             <point key="canvasLocation" x="-2103" y="-601"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="HyU-qb-Z7v">
             <objects>
-                <viewController id="url-HH-s0q" sceneMemberID="viewController">
+                <viewController id="url-HH-s0q" customClass="ResourcesViewController" customModule="finalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LLi-s3-Arp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -949,7 +949,7 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAJ-Yf-fxQ">
-                                <rect key="frame" x="42" y="134" width="341" height="48"/>
+                                <rect key="frame" x="26" y="134" width="357" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -958,6 +958,7 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="link1:" destination="b2u-81-3JK" eventType="touchUpInside" id="JDe-7v-fRZ"/>
+                                    <action selector="linkOne:" destination="url-HH-s0q" eventType="touchUpInside" id="re9-Kk-Kgi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdS-R3-2Gy">
@@ -965,6 +966,9 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="North American Pollinator Protection Campaign "/>
+                                <connections>
+                                    <action selector="linkTwo:" destination="url-HH-s0q" eventType="touchUpInside" id="N22-Po-YnS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqK-Bq-GMz">
                                 <rect key="frame" x="20" y="285" width="317" height="48"/>
@@ -974,6 +978,9 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                     <string key="title"> to learn about water pollution levels near you
 </string>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="linkThree:" destination="url-HH-s0q" eventType="touchUpInside" id="6UG-f2-EHH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htp-Nq-p1i">
                                 <rect key="frame" x="0.0" y="341" width="383" height="48"/>
@@ -983,12 +990,18 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                     <string key="title">water quality in US Streams and rivers - interactive map
 </string>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="linkFour:" destination="url-HH-s0q" eventType="touchUpInside" id="vQ0-Y1-V7Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjK-rt-aft">
                                 <rect key="frame" x="61" y="397" width="292" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="leading causes of water pollution by state"/>
+                                <connections>
+                                    <action selector="linkFive:" destination="url-HH-s0q" eventType="touchUpInside" id="6EE-2i-bRE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-iI-KR8">
                                 <rect key="frame" x="26" y="469" width="357" height="48"/>
@@ -998,12 +1011,18 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                                     <string key="title">map of invasive species list, updates, news by state
 </string>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="linkSix:" destination="url-HH-s0q" eventType="touchUpInside" id="aRB-xf-2qS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RId-Qm-q8p">
                                 <rect key="frame" x="20" y="542" width="350" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Species by state, with extinction status of animals "/>
+                                <connections>
+                                    <action selector="linkSeven:" destination="url-HH-s0q" eventType="touchUpInside" id="lAe-Rg-l83"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d55-NB-KRC"/>
@@ -1014,7 +1033,7 @@ Crop pollination (the US Forest Service reports that over 150 crops -  including
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r05-Sh-sda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="b2u-81-3JK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-2461" y="-90"/>
+            <point key="canvasLocation" x="-2462.3188405797105" y="-90.401785714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MDG-X5-us2">
@@ -1301,7 +1320,7 @@ Changes associated with global warming have been observed since the early 1900s 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="p5a-VE-5Fc"/>
+        <segue reference="gnn-Vl-wQe"/>
         <segue reference="ps6-6I-vbj"/>
         <segue reference="sfc-zn-gnN"/>
         <segue reference="E9w-5F-k4R"/>
